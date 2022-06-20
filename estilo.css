@@ -1,0 +1,62 @@
+body {
+    background-image: url(img/fondo.png.jpg);
+}
+header {
+    margin: 30px 0;
+}
+
+.contenido {
+    padding:20px;
+}
+.contenido-principal {
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid black ;
+    width: 75%;
+    
+}
+.presupuesto p{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.presupuesto p span {
+    font-weight: normal;
+}
+#gastos {
+    margin-bottom: 30px;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: rgb(29, 28, 28);
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color:#123251;
+    font-size: 22px;
+    margin-bottom:30px;
+}
+.btnPadre{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    font-size: 13px;
+    margin-top: 40px;
+    color: white;
+    background-color: #0c4681;
+}
+
+.btn-danger{
+    border-radius: 6px;
+    font-size: 13px;
+}
+
+.btn-cantidad{
+    color: #123251;
+    background-color: rgb(237, 225, 211);
+    border-radius: 12px;
+    
+}
